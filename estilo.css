@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+label {
+  color: darkmagenta;
+}
+
+button {
+  padding: 5px 30px;
+  margin-top: 10px;
+  background-color: aliceblue;
+  color: darkmagenta;
+  border: 1px solid darkmagenta;
+}
+
+button:hover {
+  background-color: darkmagenta;
+  color: aliceblue;
+}
+
+.conteudo {
+  width: 100%;
+  max-width: 500px;
+  padding-top: 50px;
+  margin: auto;
+  height: 100vh;
+  max-height: 900px;
+  background-color: aliceblue;
+}
+
+.formulario {
+  height: auto;
+  margin: 0px 0px;
+  padding: 5px 10px 50px 10px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 6px;
+}
+
+form {
+  width: auto;
+  margin: 0px 40px;
+}
+
+.cabecalho {
+  color: darkmagenta;
+  padding: 10px;
+  text-align: center;
+}
+
+.campo {
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.campo input {
+  width: 100%;
+  border: 1px solid darkmagenta;
+  height: 30px;
+  padding: 5px 5px;
+}
+
+.campo input:focus {
+  outline: none;
+}
+
+.campo select {
+  width: 100%;
+  border: 1px solid darkmagenta;
+  height: 30px;
+  background-color: aliceblue;
+}
+
+.campo select:focus {
+  outline: none;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resultado {
+  padding: 5px;
+  margin-top: 10px;
+  background-color: aliceblue;
+  border: 1px solid darkmagenta;
+  display: block;
+}
